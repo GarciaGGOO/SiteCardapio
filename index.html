@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cardápio da Lanchonete</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 21cm;
+      margin: 0 auto;
+      padding: 20px;
+      box-sizing: border-box;
+      border-radius: 10px;
+    }
+
+    h1 {
+      text-align: center;
+      padding: 20px 0;
+      background-color: #333;
+      color: #fff;
+      margin: 0;
+    }
+
+    .menu-container {
+      background-color: #fff;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+      margin: 10px 0;
+      padding: 10px;
+    }
+
+    .menu-container table {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+    }
+
+    .menu-container table th,
+    .menu-container table td {
+      padding: 10px;
+      text-align: left;
+      width: 33.33%;
+      border-bottom: 1px solid #ccc;
+      /* Adiciona uma linha fina na parte inferior de cada célula */
+    }
+
+    .menu-container th {
+      background-color: #f2f2f2;
+    }
+
+    .menu-container h2 {
+      color: #ff5733;
+      margin-top: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Lanchonete do Guinho</h1>
+
+    <div class="menu-container">
+      <h2>Lanches</h2>
+      <table>
+        <tr>
+          <th>Produto</th>
+          <th>Ingredientes</th>
+          <th>Valor</th>
+        </tr>
+        <tr>
+          <td>X-Burger</td>
+          <td>Pão, carne, queijo, alface, tomate, maionese</td>
+          <td>R$ 10,00</td>
+        </tr>
+        <tr>
+          <td>X-Salada</td>
+          <td>Pão, carne, queijo, alface, tomate, maionese</td>
+          <td>R$ 12,00</td>
+        </tr>
+        <tr>
+          <td>X-Bacon</td>
+          <td>Pão, carne, queijo, bacon, alface, tomate, maionese</td>
+          <td>R$ 12,00</td>
+        </tr>
+        <tr>
+          <td>X-Frango</td>
+          <td>Pão, frango grelhado, queijo, alface, tomate, maionese</td>
+          <td>R$ 11,00</td>
+        </tr>
+        <tr>
+          <td>X-Picanha</td>
+          <td>Pão, picanha grelhada, queijo, alface, tomate, maionese</td>
+          <td>R$ 15,00</td>
+        </tr>
+        <tr>
+          <td>X-Vegano</td>
+          <td>Pão vegano, hambúrguer de soja, alface, tomate, maionese vegana</td>
+          <td>R$ 11,00</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="menu-container">
+      <h2>Bebidas</h2>
+      <table>
+        <tr>
+          <th>Produto</th>
+          <th>Sabores</th>
+          <th>Valor</th>
+        </tr>
+        <tr>
+          <td>Refrigerante (300ml)</td>
+          <td>Cola, Laranja, Limão, Uva</td>
+          <td>R$ 3,00</td>
+        </tr>
+        <tr>
+          <td>Água Mineral (500ml)</td>
+          <td>N/A</td>
+          <td>R$ 2,00</td>
+        </tr>
+        <tr>
+          <td>Suco Natural (300ml)</td>
+          <td>Laranja, Maçã, Morango, Abacaxi</td>
+          <td>R$ 4,00</td>
+        </tr>
+        <tr>
+          <td>Milkshake</td>
+          <td>Chocolate, Baunilha, Morango, Caramelo</td>
+          <td>R$ 6,00</td>
+        </tr>
+      </table>
+    </div>
+    <div class="menu-container">
+      <h2>Combos</h2>
+      <table>
+        <tr>
+          <th>Produto</th>
+          <th>Itens Inclusos</th>
+          <th>Valor</th>
+        </tr>
+        <tr>
+          <td>Combo 1</td>
+          <td>X-Burger, Batata Frita, Refrigerante (300ml)</td>
+          <td>R$ 18,00</td>
+        </tr>
+        <table>
+          <tr>
+            <td>Combo 2</td>
+            <td>X-Salada, Nuggets (6 unidades), Suco Natural (300ml)</td>
+            <td>R$ 20,00</td>
+          </tr>
+          <tr>
+            <td>Combo 3</td>
+            <td>X-Bacon, Anéis de Cebola, Milkshake</td>
+            <td>R$ 22,00</td>
+          </tr>
+          <tr>
+            <td>Combo 4</td>
+            <td>X-Picanha, Batata Frita, Água Mineral (500ml)</td>
+            <td>R$ 20,00</td>
+          </tr>
+          <tr>
+            <td>Combo 2</td>
+            <td>X-Salada, Nuggets (6 unidades), Suco Natural (300ml)</td>
+            <td>R$ 20,00</td>
+          </tr>
+          <tr>
+            <td>Combo 3</td>
+            <td>X-Bacon, Anéis de Cebola, Milkshake</td>
+            <td>R$ 22,00</td>
+          </tr>
+          <tr>
+            <td>Combo 4</td>
+            <td>X-Picanha, Batata Frita, Água Mineral (500ml)</td>
+            <td>R$ 20,00</td>
+          </tr>
+        </table>
+    </div>
+  </div>
+</body>
+
+</html>
